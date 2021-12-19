@@ -7,3 +7,5 @@ This project utilizes two APIs, OpenWeatherMap and Gmaps, to compile a list of c
 ## WeatherPy
 This script makes use of python libraries, citipy and requests, as well as the OpenWeaterMap API to generate a random list of that is then iterated over to make successive API calls of which the JSON is returned and the data list is appended. Once the list of dictionaries is compiled, the data is written to a csv file and read back in to create weather data graphs.
 
+![Max_Temp](output/ Fig1.png)
+From the City Latitude vs. Max Temperature graph, it can be seen that temperature increase as one approaches the equator or a latitude of 0. It can be inferred from this that the data gathered contains more cities in the northern hemisphere and had there been more from the southern hemisphere a stronger bell shape may have been created.
